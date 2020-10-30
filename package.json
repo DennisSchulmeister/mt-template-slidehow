@@ -1,0 +1,37 @@
+{
+    "name": "mt-template-slideshow",
+    "version": "1.0.0",
+    "description": "mini-tutorial.js template project",
+    "author": "Dennis Schulmeister-Zimolong",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/DennisSchulmeister/mt-template-simple",
+    "bugs": {
+        "url": "https://github.com/DennisSchulmeister/mt-template-simple/issues"
+    },
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/DennisSchulmeister/mt-template-simple.git"
+    },
+    "keywords": [
+        "mini-tutorial.js",
+        "template",
+        "documentation",
+        "manual"
+    ],
+    "scripts": {
+        "clean": "node scripts/clean.js",
+        "build": "npm run clean; parcel build src/*.html --public-url . --detailed-report --experimental-scope-hoisting",
+        "watch": "npm run clean; parcel watch src/*.html --public-url . --detailed-report --experimental-scope-hoisting",
+        "start": "parcel src/index.html --open"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-runtime": "^6.26.0",
+        "mini-tutorial.js": "^1.0.9",
+        "parcel-bundler": "^1.12.4",
+        "shelljs": "^0.7.8"
+    }
+}
