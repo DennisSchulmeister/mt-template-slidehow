@@ -109,6 +109,7 @@ Other templates
  * [mt-template-simple](https://www.github.com/DennisSchulmeister/mt-template-simple)
  * [mt-template-roundbox](https://www.github.com/DennisSchulmeister/mt-template-roundbox)
  * [mt-template-book](https://www.github.com/DennisSchulmeister/mt-template-book)
+ * [mt-template-studybook](https://www.github.com/DennisSchulmeister/mt-template-studybook)
  * [mt-template-slideshow](https://www.github.com/DennisSchulmeister/mt-template-slideshow) (this one)
 
 Copyright
