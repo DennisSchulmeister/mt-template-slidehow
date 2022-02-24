@@ -32,7 +32,9 @@ window.addEventListener("load", () => {
         sectionTitle: "#page-title",
         plugins: [
             new LS_Plugin_Markdown(),
-            new LS_Plugin_ExtraTags(),
+            new LS_Plugin_ExtraTags({
+                quizExerciseHeading: "h3",
+            }),
             new LS_Plugin_HighlightJS({
                 languages: {
                     html: HLJS_Language_XML,
